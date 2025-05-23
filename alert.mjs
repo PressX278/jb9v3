@@ -29,7 +29,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 addEventListener('unhandledrejection', event => {
     const reason = event.reason;
     alert(
-        'رفض معالج\n'
+        'Unhandled rejection\n'
         + `${reason}\n`
         + `${reason.sourceURL}:${reason.line}:${reason.column}\n`
         + `${reason.stack}`
@@ -39,7 +39,7 @@ addEventListener('unhandledrejection', event => {
 addEventListener('error', event => {
     const reason = event.error;
     alert(
-        'حدث خطأ\n'
+        'Unhandled error\n'
         + `${reason}\n`
         + `${reason.sourceURL}:${reason.line}:${reason.column}\n`
         + `${reason.stack}`
