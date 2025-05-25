@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html manifest="./PSFree.manifest">
   <head>
+
     <script>
         function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.title="تثبيت الصفحة اوف لاين ...: " + Percent + "%";}
         function DisplayCacheProgress(){setTimeout(function(){;document.title="نجح تثبيت الصفحة اوف لاين !";},1000);setTimeout(function(){window.location.href = document.referrer;},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
@@ -110,5 +111,66 @@
     <script>
       CheckFW()
     </script>
-  </body>
+        </a>
+
+
+     <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة دوس إكس</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: right;
+      height: 100px;
+      line-height: 60px;
+      padding-right: 60px; /* زيادة المسافة من اليمين لتحريك النص يسارًا */
+      font-size: 14px;
+      direction: rtl;
+    }
+
+    footer a {
+      color: #00aced;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1></h1>
+    <p></p>
+  </div>
+
+  <footer>
+    جميع حقوق الصفحة محفوظة لـ 
+    <a href="https://www.facebook.com/pressxegy" target="_blank" rel="noopener noreferrer">دوس إكس</a>
+  </footer>
+
+</body>
 </html>
+
+
+
+
+
