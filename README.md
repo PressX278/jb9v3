@@ -26,7 +26,7 @@ This repo only support PS4 for now.
 # How to run
 
 ## Website
-[Click Here](https://nazky.github.io/PSFree/)
+[Click Here](https://pressx278.github.io/jb9v3/)
 
 ## Locally
 
