@@ -49,7 +49,7 @@ document.getElementById('update-exploit').addEventListener('click', () => {
 });
 
 ckbaj.addEventListener('change', (e) => {
-  //alert("WARNING :\nThis option make the jailbreak unstable and this option is not recommended please use the jailbreak button instead !");
+  //alert("تحذير :\هذا الخيار ليس مستقر برجاء لاتجعله تلقائي اضغط يدوي على زر PS !");
   localStorage.setItem('autojbstate', e.target.checked);
   onCheckboxChange(e.target.checked);
 });
