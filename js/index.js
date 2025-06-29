@@ -130,7 +130,7 @@ function CheckFW() {
       });
     }
 
-    document.title = "PSFree | " + fwVersion
+    document.title = "دوس اكس لتفعيل سوفت | " + fwVersion
   } else {
     let platform = 'Unknown platform';
 
